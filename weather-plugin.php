@@ -35,9 +35,7 @@ function swp_weather_shortcode($atts) {
         $atts['city'],
         $atts['wind'],
         $atts['humidity'],
-        $atts['units'] // <---- units van de shortcode doorgeven!
+        $atts['units'] // units van de shortcode doorgeven
     );
 }
 add_shortcode('weather', 'swp_weather_shortcode');
-
-
