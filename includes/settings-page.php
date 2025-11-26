@@ -176,7 +176,7 @@ function weather_render_settings_page() {
             <?php submit_button(); ?>
         </form>
 
-        <!-- Voorbeeldweergave -->
+        <!-- Voorbeeldweergave in settings page -->
         <h2><?php echo $labels['example_title']; ?></h2>
         <div style="border:1px solid #ddd; padding:10px; max-width:300px;">
             <?php
