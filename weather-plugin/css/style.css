@@ -1,0 +1,20 @@
+.swp-weather {
+    background: linear-gradient(to right, #6dd5fa, #ffffff);
+    border-radius: 12px;
+    padding: 15px;
+    max-width: 250px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.swp-weather img {
+    width: 50px;
+    height: 50px;
+}
+
+.swp-weather p {
+    margin: 5px 0;
+    font-size: 14px;
+}
