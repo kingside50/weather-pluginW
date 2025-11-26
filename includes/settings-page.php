@@ -1,7 +1,6 @@
 <?php
-//////////////////////////////
-// Settings pagina met vertalingen en voorbeeldweergave
-//////////////////////////////
+// Settings pagina 
+
 function weather_add_settings_page() {
     add_options_page(
         'Weather Plugin Settings',
@@ -114,7 +113,7 @@ function weather_render_settings_page() {
     $show_wind = get_option('weather_show_wind', 0);
     $show_humidity = get_option('weather_show_humidity', 0);
     $units = get_option('weather_units', 'metric');
-    $apiKey = get_option('weather_api_key');
+    $apiKey = get_option('weather_api_key', "bf3723eb904f660b18665791dce939f9");
 
     ?>
     <div class="wrap">
